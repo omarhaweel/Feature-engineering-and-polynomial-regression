@@ -1,0 +1,4 @@
+# this is requirements.txt file
+numpy
+matplotlib
+scipy
