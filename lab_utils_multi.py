@@ -320,8 +320,8 @@ def compute_gradient_matrix(X, y, w, b):
     m,n = X.shape
     f_wb = X @ w + b              
     e   = f_wb - y                
-    dj_dw  = (1/m) * (X.T @ e)    
-    dj_db  = (1/m) * np.sum(e)    
+    dj_dw  = (1/m) * (X.T @ e)  # this is the derivative of the cost with respect to the parameters w.  
+    dj_db  = (1/m) * np.sum(e)  # this is the derivative of the cost with respect to the parameter b.
         
     return dj_db,dj_dw
 
