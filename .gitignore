@@ -1,12 +1,5 @@
 # this is a .gitignore file
-# no need to commit the following files
-# 1. __pycache__
-# 2. .env
-# 3. .DS_Store
-# 4. .gitignore
-# 5. .gitignore
-# 6. .gitignore
-# 7. .gitignore
-# 8. .gitignore
-# 9. .gitignore
-# 10. .gitignore
+__pycache__
+.env
+.DS_Store
+.gitignore
